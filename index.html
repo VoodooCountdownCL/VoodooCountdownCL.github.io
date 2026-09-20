@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Voodoo Countdown</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- MINI SPOTIFY -->
+    <div class="mini-spotify">
+
+        <div class="mini-spotify-title">
+            MIENTRAS ESPERAS...
+            <span>Mientras llega el gran día.</span>
+        </div>
+
+        <iframe
+            src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO0xo6Ua?utm_source=generator"
+            width="100%"
+            height="152"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy">
+        </iframe>
+
+    </div>
+<!-- =========================================
+     CONTADOR FLOTANTE
+========================================= -->
+
+<div class="floating-countdown" id="floatingCountdown">
+
+    <div class="floating-title">
+        VOODOO COUNTDOWN
+    </div>
+
+    <div class="floating-time">
+
+        <span>
+            <strong id="floatDays">0</strong>
+            <small>DÍAS</small>
+        </span>
+
+        <b>:</b>
+
+        <span>
+            <strong id="floatHours">00</strong>
+            <small>H</small>
+        </span>
+
+        <b>:</b>
+
+        <span>
+            <strong id="floatMinutes">00</strong>
+            <small>M</small>
+        </span>
+
+        <b>:</b>
+
+        <span>
+            <strong id="floatSeconds">00</strong>
+            <small>S</small>
+        </span>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================
+     HERO / CONTADOR PRINCIPAL
+========================================= -->
+
+<main class="hero" id="hero">
+
+    <div class="background-layer" id="backgroundLayer"></div>
+
+    <div class="hero-overlay"></div>
+
+    <div class="content">
+
+        <h1>VOODOO COUNTDOWN</h1>
+
+        <p class="subtitle">
+            Cuenta regresiva para el concierto de Kidd Voodoo
+        </p>
+
+
+        <div class="event-info">
+
+            <p>7 de diciembre de 2026 • 21:00 hrs</p>
+
+            <p>Estadio Monumental</p>
+
+            <p>Macul, Santiago, Chile</p>
+
+        </div>
+
+
+                <section class="countdown">
+
+            <div class="time-box">
+                <span id="days">0</span>
+                <p>DÍAS</p>
+            </div>
+
+            <div class="time-box">
+                <span id="hours">00</span>
+                <p>HORAS</p>
+            </div>
+
+            <div class="time-box">
+                <span id="minutes">00</span>
+                <p>MINUTOS</p>
+            </div>
+
+            <div class="time-box">
+                <span id="seconds">00</span>
+                <p>SEGUNDOS</p>
+            </div>
+
+        </section>
+
+
+
+        
+<p class="countdown-caption">EL TIEMPO CORRE.</p>
+
+        <!-- MENSAJE POST-CONCIERTO -->
+        <div class="post-concert-message" id="postConcertMessage">
+
+            <h2>EL MOMENTO LLEGÓ</h2>
+
+            <p>7 DE DICIEMBRE · ESTADIO MONUMENTAL</p>
+
+        </div>
+
+
+        <p class="scroll-info">
+            ↓ Desliza para más información
+        </p>
+
+    </div>
+
+</main>
+
+
+<!-- =========================================
+     SECCIÓN 2 — CÓMO LLEGAR
+========================================= -->
+
+<section class="location-section reveal-section">
+
+    <div class="section-transition blue-transition"></div>
+
+    <div class="section-content">
+
+        <h2> ¿Cómo llegar al Estadio Monumental?</h2>
+
+        <p class="section-description">
+            Todo listo para llegar al gran día.
+        </p>
+
+
+        <div class="map-container reveal-item">
+
+            <iframe
+                src="https://maps.google.com/maps?q=Estadio%20Monumental%20David%20Arellano%20Chile&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                loading="lazy">
+            </iframe>
+
+        </div>
+
+
+        <div class="location-info reveal-item">
+
+            <p>
+
+                 <strong>Dirección</strong><br>
+
+                Av. Marathon 5300<br>
+
+                Macul, Santiago, Chile
+
+            </p>
+
+
+            <a
+                href="https://www.google.com/maps/search/?api=1&query=Estadio+Monumental+David+Arellano"
+                target="_blank"
+                class="maps-button">
+
+                 Abrir en Google Maps
+
+            </a>
+
+
+            <p class="metro">
+
+                 <strong>Metro cercano</strong><br>
+
+                Pedrero — Línea 5
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<!-- =========================================
+     SECCIÓN 4 — SOLD OUT
+========================================= -->
+
+<section class="soldout-section reveal-section">
+
+    <div class="comic-lines"></div>
+
+    <div class="soldout-content">
+
+        <p class="soldout-small">
+            TE ESPERAMOS EL 7
+        </p>
+
+
+        <div class="soldout-wrapper">
+
+            <span class="comic-word word-back">
+                SOLD OUT
+            </span>
+
+            <span class="comic-word word-middle">
+                SOLD OUT
+            </span>
+
+            <h2 class="soldout-title">
+                SOLD OUT
+            </h2>
+
+        </div>
+
+
+        <div class="soldout-burst burst-one">✦</div>
+        <div class="soldout-burst burst-two">✦</div>
+        <div class="soldout-burst burst-three">✦</div>
+
+
+        <div class="soldout-info reveal-item">
+
+    <p class="soldout-main">
+        🎟️ CONCIERTO 100% AGOTADO 🎟️
+    </p>
+
+    <p class="soldout-artist">
+         <strong>Kidd Voodoo</strong>
+    </p>
+
+    <div class="soldout-details">
+
+        <p> <strong>7 de diciembre de 2026</strong></p>
+
+        <p> <strong>Estadio Monumental</strong></p>
+
+        <p> <strong>Macul, Santiago, Chile</strong></p>
+
+    </div>
+
+    <p class="soldout-message">
+        Todas las entradas están agotadas.
+    </p>
+
+    <p class="soldout-closing">
+        El 7 de diciembre, Santiago espera a Kidd Voodoo.
+    </p>
+
+</div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     SECCIÓN 5 — BIOGRAFÍA
+========================================= -->
+
+<section class="bio-section reveal-section">
+
+    <div class="bio-glow"></div>
+
+    <div class="bio-container">
+
+        <div class="bio-top">
+
+            <div class="bio-gallery reveal-item">
+
+                <div class="bio-image active">
+                    <img src="assets/images/kidd1.jpg" alt="Kidd Voodoo">
+                </div>
+
+                <div class="bio-image">
+                    <img src="assets/images/kidd2.jpg" alt="Kidd Voodoo">
+                </div>
+
+                <div class="bio-image">
+                    <img src="assets/images/kidd3.jpg" alt="Kidd Voodoo">
+                </div>
+
+                <div class="bio-image">
+                    <img src="assets/images/kidd4.jpg" alt="Kidd Voodoo">
+                </div>
+
+                <div class="bio-image">
+                    <img src="assets/images/kidd5.jpg" alt="Kidd Voodoo">
+                </div>
+
+                <div class="gallery-dots">
+
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+
+                </div>
+
+            </div>
+
+
+            <div class="bio-text reveal-item">
+
+                <p class="bio-label">
+                    KIDD VOODOO
+                </p>
+
+                <h2>
+                    El Sátiro
+                </h2>
+
+
+                <p>
+
+                    <strong>David Simón León Urbina</strong>,
+                    conocido artísticamente como
+                    <strong>Kidd Voodoo</strong> o
+                    <em>“El Sátiro”</em>, es un cantante y
+                    compositor chileno.
+
+                </p>
+
+
+                <p>
+
+                    Nació en Maipú, Santiago, el 9 de octubre
+                    de 2001. Su música mezcla sonidos de
+                    <strong>reggaetón, trap y rock indie</strong>,
+                    construyendo una identidad propia que lo
+                    ha convertido en una de las figuras más
+                    importantes de la nueva escena urbana chilena.
+
+                </p>
+
+
+                <p>
+
+                    Tras una carrera marcada por el crecimiento
+                    constante y por haber
+                    <strong>agotado 12 funciones en el
+                    Movistar Arena durante 2025</strong>,
+                    ahora llega un nuevo hito.
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="bio-final reveal-item">
+
+            <p>
+                Y ahora agotó su primer estadio
+            </p>
+
+            <strong>
+                en Santiago. Nos vemos el 7.
+            </strong>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================================
+     FOOTER — CIERRE
+========================================= -->
+
+<footer class="site-footer">
+
+    <div class="footer-content">
+
+        <h3>
+            VOODOO COUNTDOWN
+        </h3>
+
+        <p class="footer-subtitle">
+            Una cuenta regresiva hecha por un fan.
+        </p>
+
+        <div class="footer-line"></div>
+
+        <p class="footer-copy">
+            © 2026 Voodoo Countdown · Todos los derechos reservados.
+        </p>
+
+        <p class="footer-disclaimer">
+            Página no oficial · Proyecto creado por un fan de Kidd Voodoo.
+        </p>
+
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
