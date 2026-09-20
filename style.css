@@ -2430,45 +2430,41 @@ body {
     display: flex;
     position: absolute;
 
-    top: 7px;
-    right: 7px;
+    top: 6px;
+    right: 8px;
 
-    width: 25px;
-    height: 25px;
+    width: 22px;
+    height: 22px;
 
     align-items: center;
     justify-content: center;
 
     padding: 0;
 
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    border-radius: 50%;
-
-    background: rgba(0, 0, 0, 0.72);
-    color: white;
+    border: none;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.75);
 
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 400;
     line-height: 1;
 
     cursor: pointer;
     z-index: 10;
 
     transition:
-        background 0.2s ease,
-        transform 0.2s ease,
-        border-color 0.2s ease;
+        color 0.2s ease,
+        transform 0.2s ease;
 }
 
 .mini-spotify-close:hover {
-    background: rgba(255, 255, 255, 0.18);
-    border-color: rgba(255, 255, 255, 0.35);
-    transform: scale(1.08);
+    color: white;
+    transform: scale(1.12);
 }
 
 .mini-spotify-close:active {
-    transform: scale(0.92);
+    transform: scale(0.9);
 }
 /* =========================================
    MODO CONCIERTO
