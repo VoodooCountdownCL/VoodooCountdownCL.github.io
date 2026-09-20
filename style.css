@@ -2447,6 +2447,9 @@ body {
         z-index: 10;
     }
 
+   .mini-spotify-close {
+    display: none;
+}
 }
 /* =========================================
    MODO CONCIERTO
