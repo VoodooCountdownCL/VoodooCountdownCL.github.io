@@ -921,3 +921,26 @@ if (
     );
 
 }
+// =========================================
+// MINI SPOTIFY — CERRAR EN CELULAR
+// =========================================
+
+const miniSpotify =
+    document.querySelector(".mini-spotify");
+
+const closeMiniSpotify =
+    document.getElementById("closeMiniSpotify");
+
+
+if (miniSpotify && closeMiniSpotify) {
+
+    closeMiniSpotify.addEventListener(
+        "click",
+        () => {
+
+            miniSpotify.style.display = "none";
+
+        }
+    );
+
+}
